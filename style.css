@@ -1,6 +1,6 @@
 body {
 
-	background-image: /gametemplate/img/Maskedman.jpg;
+	background-image: url(/gametemplate/img/Maskedman.jpg);
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
