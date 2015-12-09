@@ -58,9 +58,11 @@ $( document ).ready(function() {
 		$("#goRight1").show();
 		$("#goLeft1").show();
 	});
-	function myFunction() {
+	
+
+		$("#gun").click(function(){
     alert("You found a gun!");
-}
+});
 
 
 
