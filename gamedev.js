@@ -58,7 +58,9 @@ $( document ).ready(function() {
 		$("#goRight1").show();
 		$("#goLeft1").show();
 	});
-	alert("You Found A Gun!")
+	function myFunction() {
+    alert("You found a gun!");
+}
 
 
 
