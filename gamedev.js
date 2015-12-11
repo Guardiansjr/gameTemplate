@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goRight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Gunplane.jpg')");
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
@@ -9,9 +9,10 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('blood.jpg')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
+
 	});
 
 	$("#goRight-Straight2").click(function() {
@@ -27,7 +28,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Right2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Gun in plane.jpg')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
@@ -59,11 +60,10 @@ $( document ).ready(function() {
 		$("#goLeft1").show();
 	});
 	
-
-		$("#gun").click(function(){
-    alert("You found a gun!");
+	$("#gun").click(function(){
+		$("#gun").hide();
+   		alert("You found a gun! (Now click the button on the right)");
 });
-
 
 
 });
