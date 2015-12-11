@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('blood.jpg')");
+		$("#exploreBody").css("background-image", "url('img/bloodnew1.jpg')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
 
