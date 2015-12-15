@@ -110,6 +110,12 @@ body {
     display: none;
 }
 
+#goLeft5 {
+    bottom: 75%;
+    left: 45%;
+    display: none;
+}
+
 
 .hudBase {
     background-color: rgba(0,0,0,0.7);

@@ -28,7 +28,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Right2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/Gun in plane.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Terrorist.jpg')");
 		$("#goRight-Right2").hide();
 		$("#goBack").show();
 	});
@@ -54,11 +54,19 @@ $( document ).ready(function() {
 
 
 	$("#goBack").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/terrorist2.jpg')");
 		$("#goBack").hide();
-		$("#goRight1").show();
-		$("#goLeft1").show();
+		$("#goRight1").hide();
+		$("#goLeft1").hide();
+		$("#goLeft5").show();
+
 	});
+
+	$("#goleft5").click(function() {
+		$("#exploreBody").css("background-image", "url('img/terrorist2.jpg')");
+		
+	});
+	
 	
 	$("#gun").click(function(){
 		$("#gun").hide();
