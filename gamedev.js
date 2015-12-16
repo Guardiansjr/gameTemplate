@@ -11,7 +11,10 @@ $( document ).ready(function() {
 	$("#goRight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/bloodnew1.jpg')");
 		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goRight-Straight2").hide();
+		$("#goRight-Right2").hide();
+
+
 
 	});
 
@@ -59,12 +62,17 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 		$("#goLeft1").hide();
 		$("#goLeft5").show();
+		$("#goRight-Straight1").hide();
+
 
 	});
 
-	$("#goleft5").click(function() {
-		$("#exploreBody").css("background-image", "url('img/terrorist2.jpg')");
-		
+	$("#goLeft5").click(function() {
+		$("#exploreBody").css("background-image", "url('img/planelanding.gif')");
+		$("#gun").hide();
+   	$("#goRight-Straight1").hide
+   	$("#goLeft5").hide();	
+
 	});
 	
 	
